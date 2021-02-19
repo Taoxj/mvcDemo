@@ -18,7 +18,7 @@ public class UserController {
     @RequestMapping("/select")
     public ModelAndView selectUser() throws Exception {
         ModelAndView mv = new ModelAndView();
-        User user = userService.selectUser(1);
+        User user = userService.selectUser(2);
         mv.addObject("user", user);
         mv.setViewName("user");
         return mv;
