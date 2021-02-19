@@ -5,7 +5,7 @@
 <mapper namespace="com.xjt.dao.IUserDao">
 
     <select id="selectUser" resultType="User" parameterType="long">
-        SELECT * FROM user WHERE id = #{id}
+        SELECT id,email,username,role,mobile FROM user WHERE id = #{id}
     </select>
 
 </mapper>
