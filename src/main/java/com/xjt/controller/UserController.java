@@ -14,7 +14,7 @@ public class UserController {
 
     @Autowired
     private IUserService userService;
-// test
+// test2
     @RequestMapping("/select")
     public ModelAndView selectUser() throws Exception {
         ModelAndView mv = new ModelAndView();
