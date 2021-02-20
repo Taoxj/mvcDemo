@@ -14,11 +14,11 @@ public class UserController {
 
     @Autowired
     private IUserService userService;
-// test2
+// test4
     @RequestMapping("/select")
     public ModelAndView selectUser() throws Exception {
         ModelAndView mv = new ModelAndView();
-        User user = userService.selectUser(3);
+        User user = userService.selectUser(4);
         mv.addObject("user", user);
         mv.setViewName("user");
         return mv;
