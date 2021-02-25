@@ -11,10 +11,10 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 @RequestMapping("/user")
 public class UserController {
-
     @Autowired
     private IUserService userService;
-// test5555
+
+    // test5555
     @RequestMapping("/select")
     public ModelAndView selectUser() throws Exception {
         ModelAndView mv = new ModelAndView();
