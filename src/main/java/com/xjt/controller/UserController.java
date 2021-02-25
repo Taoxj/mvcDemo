@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 @RequestMapping("/user")
 public class UserController {
-    //test
+    //test1
     @Autowired
     private IUserService userService;
 
